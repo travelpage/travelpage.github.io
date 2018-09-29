@@ -1,0 +1,663 @@
+body{
+	align-items: center;
+	text-align: center;
+}
+
+a:hover , .travelpic1 , .travelpic2 , .travelpic3{
+	text-decoration: none!important;
+	color: #fff9ce!important;
+}
+
+a:hover , .tomybloglink {
+	text-decoration: none!important;
+/*	color: black!important;*/
+}
+
+
+
+a:visited .travelpic1 , .travelpic2 , .travelpic3{
+	text-decoration: none!important;
+	color: none!important;
+}
+
+
+/*>------------------Main Page-----------------<*/
+
+.main{
+	aliga: center;
+}
+
+.mainimg{
+	height: 100.5%;
+	width: 100.5%;
+	display: inline-block;
+}
+
+.maintext{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-top: -425px;
+	font-weight: bold;
+	font-size: 96px;
+	text-align: center;
+}
+
+.secondmain{
+	height: 80px;
+	width: 690px;
+	text-align: center;
+	margin-left: 23.8%;
+	margin-top: -10px;
+}
+
+.secondmaintext{
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.toblog{
+	text-align: center;
+}
+
+.tomybloglink{
+	background-color: #FFE926;
+	color: black;
+	height: 54px;
+	width: 216px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 5px;
+	padding-top: 15px;
+	margin-top: 20px;
+	font-weight: bold;
+	transition: width 0.5s , background-color 0.5s ;
+}
+
+
+.tomybloglink:hover {
+	color: black !important;
+	width: 230px!important;
+	background-color: #ffe60a !important;
+
+}
+
+/*.tomybloglink{
+	padding-top: 10px;
+}*/
+
+/*>-----------------BLOG PAGE---------------------<*/
+
+.blog{
+	height: 730px;
+}
+
+.blogtitle{
+	font-size: 72px;
+	color: #C57D29;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	margin-top: 190px;
+	text-align: center;
+}
+
+/*>----------------Blog Einträge------------------<*/
+
+.travelpic1 , .travelpic2 , .travelpic3{
+	background-color: #C57D29;
+	height: 355px;
+	width: 337px;
+	border-radius: 20px;
+	margin-left: 3%;
+	display: inline-block;
+	margin-top: 2.5%;
+	box-shadow: 5px 10px 18px #888888;
+	text-align: center;
+	transition: height 0.5s , background-color 0.5s;
+}
+
+.travelpic1:hover , .travelpic2:hover , .travelpic3:hover{
+	box-shadow: 5px 10px 8px #888888;
+	height: 365px !important;
+/*	width: 347px !important;*/
+	background-color: #d87c11;
+}
+
+.travelpic1{
+	margin-left: 9%;
+}
+
+.travelpic3{
+	margin-right: 9%;
+}
+
+.canyon , .surfinggirl , .mountainman{
+	width: 288px;
+	height: 229px;
+	border-radius: 10px;
+	margin-left: 7.5%;
+	margin-top: 6%;
+/*	text-align: center;*/
+	margin-right: 100px;
+}
+
+a , .blogtitle{
+	display: block;
+}
+
+
+.blogtitles{
+	color: white;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 43px;
+	margin-top: 20px;
+}
+
+
+
+/*>--------------------ABOUT SECTION------------------<*/
+
+.about{
+	background-color: #FF8E26;
+	height: 750px;
+	color: white;
+	text-align: center;
+}
+
+.abouttitle{
+	font-size: 72px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	padding-top: 50px;
+}
+
+.abouttext{
+/*	width: 778px;*/
+	margin-left: 21%;
+	font-size: 20px;
+	margin-right: 21%;
+
+}
+
+.avatar{
+	margin-bottom: 25px;
+}
+
+/*>--------------------CONTACT SECTION--------------------<*/
+
+.contact{
+	height: 655px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+.contacttitle{
+	color: #C57D29;
+	font-weight: bolder;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-size: 72px;
+	text-align: center;
+	margin-top: 50px;
+
+}
+
+.username{
+	margin-top: 50px;
+}
+
+.username , .e-mail , .comment{
+	background-color: #C4C4C4;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	display: block;
+	margin-left: 22%;
+	color: #C57D29;
+	margin-right: 22%;
+}
+
+.e-mail , .comment{
+	margin-top: 20px;
+}
+
+.send{
+	background-color: #FFE926;
+	padding: 5px 50px 5px 50px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+}
+
+.send{
+	display: block;
+	margin-left: 44%;
+	margin-top: 10px;
+}
+
+.mynewsletter{
+	display: inline-block;
+}
+
+.mynewsletter , .checkletter{
+	margin-top: 20px;
+}
+
+
+
+
+/*------------------FOOTER AREA--------------------*/
+
+.footer{
+	height: 194px;
+	background-color: #804000;
+}
+
+.copyright{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+
+
+@media only screen and (max-width: 1050px){
+/*	.mainimg{
+		size: 75% !important;
+	}*/
+
+	.maintext{
+		font-size: 56px; 
+		margin-top: -260px;
+	}
+
+	.secondmaintext{
+		font-size: 16px;
+	}
+
+	.tomybloglink{
+		font-size: 10px;
+		height: 27px;
+		width: 108px;
+		padding-top: 8px;
+	}
+
+	.blog{
+		height: 885px;
+	}
+
+	.blogtitle{
+		margin-top: 130px;
+	}
+
+	.travelpic3{
+		margin-left: 31.5%;
+		margin-top: 40px;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	.mainimg{
+		height: 200px;
+		size: 200%;
+	}
+
+	.maintext{
+		font-size: 52px; 
+		margin-top: -165px;
+	}
+
+	.secondmaintext{
+		font-size: 15px;
+		margin-top: -5px;
+		margin-bottom: -5px;
+	}
+
+	.tomybloglink{
+		font-size: 10px;
+		height: 27px;
+		width: 108px;
+		padding-top: 8px;
+	}
+
+	.blog{
+		height: 1265px;
+	}
+
+	.blogtitle{
+		margin-top: 40px!important;
+		font-size: 72px;
+	}
+
+	.travelpic3{
+		margin-left: 31.5%;
+		margin-top: 40px;
+	}
+
+	.send{
+		margin-left: 28%!important;
+	}
+
+	.username , .e-mail , .comment{
+		width: 210px!important;
+	}
+
+	.travelpic1, .travelpic2 ,.travelpic3{
+		height: 300px;
+		width: 237px;
+		margin-left: 4.5%!important; 
+		margin-right: 5%;
+		margin-bottom: 20px;
+	}
+
+	.travelpic3{
+		margin-top: 20px !important;
+	}
+
+	.travelpic1:hover , .travelpic2:hover ,.travelpic3:hover{
+		height: 300px!important;
+	}
+
+	.canyon , .surfinggirl , .mountainman{
+		width: 200px;
+		height: 180px;
+		margin-top: 20px;
+	}
+
+	.blogtitles{
+		font-size: 38px;
+	}
+
+}
+
+@media only screen and (max-width: 790px){
+	.blog{
+		height: 1265px;
+	}
+
+	.blogtitle{
+		margin-top: 130px;
+	}
+
+/*	.travelpic3{
+		margin-left: 15.5%;
+		margin-top: 40px;
+	}*/
+
+	.travelpic1 , .travelpic2 , .travelpic3{
+		margin-left: 6%!important;
+		margin-right: 6%;
+	}
+
+	.blogtitle{
+		margin-top: 100px !important;
+	}
+
+	.blog{
+		height: 1350px!important;
+	}
+
+	.travelpic1{
+		margin-bottom: 20px;
+	}
+
+
+}
+
+@media only screen and (max-width: 1340px){
+	.blog{
+		height: 710px;
+	}
+
+	.travelpic1{
+		margin-left: 2%;
+	}
+
+	.travelpic3{
+		margin-right: 25px;
+	}
+}
+
+@media only screen and (max-width: 1250px){
+	.blog{
+		height: 1120px;
+	}
+
+	.blogtitle{
+		margin-top: 200px;
+	}
+
+	.travelpic3{
+		margin-left: 8%;
+		margin-top: 40px;
+	}
+
+	.travelpic1{
+		margin-left: -1%;
+	}
+
+	.blog{
+		height: 1050px;
+	}
+
+	.blogtitle{
+		margin-top: 140px;
+	}
+
+	.username , .e-mail , .comment{
+		width: 500px;
+		margin-left: 20%;
+	}
+
+	.send{
+		margin-left: 39.5%;
+	}
+
+	.about{
+		height: 950px;
+	}
+
+}
+
+/*@media only screen and (max-width: 1250px){
+	.blog{
+		height: 700px;
+	}
+}*/
+
+
+
+/*--------------------NAviGationBar-----------------*/
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+  width: auto;
+  font-family: Raleway, sans-serif;
+  line-height: 1;
+}
+#cssmenu > ul {
+  background: #C57D29;
+}
+#cssmenu > ul > li {
+  float: left;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
+}
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 16px 20px;
+  font-size: 14px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #C57D29;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+#cssmenu > ul > li.active > a {
+  color: #dff2fa;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: rotateX(90deg) translateY(-23px);
+  -moz-transform: rotateX(90deg) translateY(-23px);
+  transform: rotateX(90deg) translateY(-23px);
+  -ms-transform: none;
+}
+#cssmenu > ul > li > a::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 16px 20px;
+  color: #dff2fa;
+  background: #E79432;
+  content: attr(data-title);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -ms-transform: translateY(- -18px);
+}
+#cssmenu > ul > li:hover > a::before,
+#cssmenu > ul > li > a:hover::before {
+  background: #E79432;
+}
+#cssmenu.small-screen {
+  width: 100%;
+}
+#cssmenu.small-screen > ul,
+#cssmenu.small-screen.align-center > ul {
+  width: 100%;
+  text-align: left;
+}
+#cssmenu.small-screen > ul > li,
+#cssmenu.small-screen.align-center {
+  float: none;
+  display: block;
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+}
+#cssmenu.small-screen > ul > li:hover > a,
+#cssmenu.small-screen > ul > li > a:hover {
+  color: #dff2fa;
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  -ms-transform: none;
+}
+#cssmenu.small-screen > ul > li > a::before {
+  display: none;
+}
+#cssmenu.small-screen #menu-button {
+  display: block;
+  padding: 16px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #E79432;
+}
+#cssmenu.small-screen #menu-button:after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  display: block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  width: 22px;
+  height: 3px;
+}
+#cssmenu.small-screen #menu-button.menu-opened:after {
+  border-top: 2px solid #dff2fa;
+  border-bottom: 2px solid #dff2fa;
+}
+#cssmenu.small-screen #menu-button:before {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 27px;
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #ffffff;
+}
+#cssmenu.small-screen #menu-button.menu-opened:before {
+  background: #dff2fa;
+}
